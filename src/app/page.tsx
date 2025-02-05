@@ -21,7 +21,7 @@ export default function Home() {
       <div className="mt-6">
         {activePage === "counter" && <Counter />}
         {activePage === "userForm" && <UserForm />}
-        {activePage === "richText" && <RichTextEditor />}
+        {/* {activePage === "richText" && <RichTextEditor />} */}
       </div>
     </div>
   );
